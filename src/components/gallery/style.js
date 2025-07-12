@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const GalleryVisualStyle = styled.div`
   width: 100%;
   height: 300px;
-  background-image: url("./visual3.jpg");
+  background-image: url("./visual1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@ export const GalleryVisualStyle = styled.div`
   justify-content: center;
   align-items: center;
   h2 {
-    color:rgb(47, 45, 45);
+    color: rgb(47, 45, 45);
   }
 `;
 export const GalleryInputStyle = styled.form`

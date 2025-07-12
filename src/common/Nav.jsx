@@ -12,7 +12,7 @@ const Nav = () => {
           <Link to="gallery">Gallery</Link>
         </li>
         <li>
-          <Link to="photo">Photo</Link>
+          <Link to="photo">Line up</Link>
         </li>
         <li>
           <Link to="Board">Board</Link>

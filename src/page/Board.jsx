@@ -5,6 +5,7 @@ const Board = () => {
   return (
     <Container>
       <GalleryVisual />
+      
     </Container>
   );
 };

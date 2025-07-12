@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 export const HeaderStyle = styled.header`
   background-color: rgb(102, 156, 137);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
-    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
   height: 120px;
   h1 {
     position: absolute;
@@ -29,6 +27,7 @@ export const NavStyle = styled.nav`
     gap: 50px;
     li {
       font-size: 24px;
+      font-weight: 700;
 
       &:hover a {
         color: rgb(33, 50, 44);

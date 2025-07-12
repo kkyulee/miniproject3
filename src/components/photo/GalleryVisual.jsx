@@ -3,7 +3,7 @@ import { GalleryVisualStyle } from "./style";
 const GalleryVisual = () => {
   return (
     <GalleryVisualStyle>
-      <h2>Photo</h2>
+      <h2>Line up</h2>
     </GalleryVisualStyle>
   );
 };

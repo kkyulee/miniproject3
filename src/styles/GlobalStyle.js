@@ -4,6 +4,9 @@ import reset from "styled-reset";
 const GlobalStyle = createGlobalStyle`
   ${reset}
   /* other styles */
+  :root {
+    --swiper-theme-color:  white !important;
+}
   body {
     font-size: 16px;
     line-height: 1.6;
