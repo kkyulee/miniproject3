@@ -10,7 +10,7 @@ const GalleryInput = ({ onSearch }) => {
   };
 
   const onSubmit = (e) => {
-    e.preventDefualt();
+    e.preventDefault();
     onSearch(text);
   };
   return (
@@ -21,7 +21,7 @@ const GalleryInput = ({ onSearch }) => {
           placeholder="이미지를 검색하세요"
           onChange={changeInput}
         />
-        <button type="sibmit">
+        <button type="submit">
           <IoSearch size="28" color="#6c6c6c" />
         </button>
       </p>

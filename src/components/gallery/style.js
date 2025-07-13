@@ -38,7 +38,7 @@ export const GalleryInputStyle = styled.form`
     }
   }
 `;
-export const GalleryListStyle = styled.form`
+export const GalleryListStyle = styled.div`
   .my-masonry-grid {
     display: -webkit-box; /* Not needed if autoprefixing */
     display: -ms-flexbox; /* Not needed if autoprefixing */
@@ -54,11 +54,11 @@ export const GalleryListStyle = styled.form`
   /* Style your items */
   .my-masonry-grid_column > div {
     /* change div to reference your elements you put in <Masonry> */
-    background: grey;
+    background-color: rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
   }
 `;
-export const GalleryItemStyle = styled.form`
+export const GalleryItemStyle = styled.div`
   padding: 20px;
   .imgWrap {
     width: 420px;
